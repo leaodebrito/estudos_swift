@@ -11,6 +11,7 @@ struct ContentView: View {
     
     let paddingHorizontal: CGFloat = 30
     let paddingTopView: CGFloat = 50
+    let raioQuinaBotao: CGFloat = 10
     
     var body: some View {
         
@@ -40,7 +41,34 @@ struct ContentView: View {
                 }
                 .frame(width: view.size.width, height: 180, alignment: .top)
                 .background(/*@START_MENU_TOKEN@*//*@PLACEHOLDER=View@*/Color.purple/*@END_MENU_TOKEN@*/)
-                .edgesIgnoringSafeArea(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
+                
+                
+                
+                //MARK: - botões
+                HStack{
+                    Button(action: {
+                        print("apertaram o botão")
+                    }, label: {
+                        Text("Hotéis")
+                            .font(.custom("Avenir Medium", size: 17))
+                            .foregroundColor(Color.white)
+                    })
+                    .frame(width: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, height: 50)
+                    .background(Color.blue)
+                    .cornerRadius(raioQuinaBotao)
+                    
+                    Button(action: {
+                        print("apertaram o botão")
+                    }, label: {
+                        Text("Pacotes")
+                            .font(.custom("Avenir Medium", size: 17))
+                            .foregroundColor(Color.white)
+                    })
+                    .frame(width: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, height: 50)
+                    .background(Color.orange)
+                    .cornerRadius(raioQuinaBotao)
+                    
+                }
                 
                 List{
                     Text("Rio de Janeiro")
@@ -52,6 +80,7 @@ struct ContentView: View {
                 }
             }
         }
+        .edgesIgnoringSafeArea(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
     }
 }
 
