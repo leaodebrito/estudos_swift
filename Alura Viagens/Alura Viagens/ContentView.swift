@@ -12,6 +12,7 @@ struct ContentView: View {
     let paddingHorizontal: CGFloat = 30
     let paddingTopView: CGFloat = 50
     let raioQuinaBotao: CGFloat = 10
+    let espacoEntreBotoes: CGFloat = 100
     
     var body: some View {
         
@@ -54,8 +55,11 @@ struct ContentView: View {
                             .foregroundColor(Color.white)
                     })
                     .frame(width: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, height: 50)
+                    .overlay(RoundedRectangle(cornerRadius: 10).stroke(Color.blue, lineWidth: 10))
                     .background(Color.blue)
-                    .cornerRadius(raioQuinaBotao)
+                    
+                    Spacer()
+                        .frame(width: espacoEntreBotoes)
                     
                     Button(action: {
                         print("apertaram o botão")
@@ -65,10 +69,11 @@ struct ContentView: View {
                             .foregroundColor(Color.white)
                     })
                     .frame(width: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, height: 50)
+                    .overlay(RoundedRectangle(cornerRadius: 10).stroke(Color.orange, lineWidth: 10))
                     .background(Color.orange)
-                    .cornerRadius(raioQuinaBotao)
                     
                 }
+                .offset(y: -25)
                 
                 List{
                     Text("Rio de Janeiro")
