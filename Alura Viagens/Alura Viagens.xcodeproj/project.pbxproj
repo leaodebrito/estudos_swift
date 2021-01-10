@@ -14,6 +14,7 @@
 		C197954A25A216E10055B7D5 /* Dados.swift in Sources */ = {isa = PBXBuildFile; fileRef = C197954825A216E10055B7D5 /* Dados.swift */; };
 		C197954B25A216E10055B7D5 /* Viagem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C197954925A216E10055B7D5 /* Viagem.swift */; };
 		C197954E25A216E90055B7D5 /* viagens.json in Resources */ = {isa = PBXBuildFile; fileRef = C197954D25A216E90055B7D5 /* viagens.json */; };
+		C1D2792E25AB30EA005D98E9 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D2792D25AB30EA005D98E9 /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		C197954825A216E10055B7D5 /* Dados.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Dados.swift; path = ../../../../../../../Downloads/Resources/Models/Dados.swift; sourceTree = "<group>"; };
 		C197954925A216E10055B7D5 /* Viagem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Viagem.swift; path = ../../../../../../../Downloads/Resources/Models/Viagem.swift; sourceTree = "<group>"; };
 		C197954D25A216E90055B7D5 /* viagens.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = viagens.json; path = ../../../../../../Downloads/Resources/viagens.json; sourceTree = "<group>"; };
+		C1D2792D25AB30EA005D98E9 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 				C197954D25A216E90055B7D5 /* viagens.json */,
 				C124027D259FD136004C50BF /* Info.plist */,
 				C124027A259FD136004C50BF /* Preview Content */,
+				C1D2792D25AB30EA005D98E9 /* MapView.swift */,
 			);
 			path = "Alura Viagens";
 			sourceTree = "<group>";
@@ -158,6 +161,7 @@
 			files = (
 				C197954B25A216E10055B7D5 /* Viagem.swift in Sources */,
 				C1240277259FD135004C50BF /* ContentView.swift in Sources */,
+				C1D2792E25AB30EA005D98E9 /* MapView.swift in Sources */,
 				C197954A25A216E10055B7D5 /* Dados.swift in Sources */,
 				C1240275259FD135004C50BF /* Alura_ViagensApp.swift in Sources */,
 			);

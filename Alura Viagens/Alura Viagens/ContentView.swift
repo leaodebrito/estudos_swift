@@ -80,16 +80,25 @@ struct ContentView: View {
                 }
                 .offset(y: -25)
                 
+                //MARK: - Lista de viagens
+                
                 List(viagens){ viagem in
                     VStack(alignment: .leading){
                         Text(viagem.titulo)
+                            .font(.custom("Avenir", size: self.horizontalSizeClass == .compact ? 14 : 24))
                         Image(viagem.imagem)
                             .resizable()
-                            .frame(height: 125)
+                            .aspectRatio(contentMode: .fill)
+                            .frame(height:125)
+                            .font(.custom("Avenir", size: self.horizontalSizeClass == .compact ? 125 : 200))
+                            .clipped()
+                        
                         HStack{
                             Text(viagem.quantidadeDeDias)
+                                .font(.custom("Avenir", size: self.horizontalSizeClass == .compact ? 14 : 24))
                             Spacer()
                             Text(viagem.valor)
+                                .font(.custom("Avenir", size: self.horizontalSizeClass == .compact ? 14 : 24))
                         }
                         
                     }
