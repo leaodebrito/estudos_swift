@@ -14,6 +14,11 @@ struct ContentView: View {
     let raioQuinaBotao: CGFloat = 10
     let espacoEntreBotoes: CGFloat = 100
     
+    //Identifica o tamanho da tela do dispositivo (se iPhone ou iPad, por exemplo) e permite a configuração de tamanho de fontes de acordo com o dispositivo (CHECAR HUMAN INTERFACE GUIDELINES - SIZE CLASS)
+    @Environment(\.horizontalSizeClass) var horizontalSizeClass
+    
+    
+    
     var body: some View {
         
         
@@ -26,21 +31,21 @@ struct ContentView: View {
                 VStack{
                     Text("Alura Viagens")
                         .foregroundColor(Color.white)
-                        .font(.custom("Avenir Black", size: 20))
+                        .font(.custom("Avenir Black", size: self.horizontalSizeClass == .compact ? 20 : 30))
                         .padding(.top, paddingTopView)
                         
                     Text("ESPECIAL")
                         .foregroundColor(Color.white)
-                        .font(.custom("Avenir Book", size: 20))
+                        .font(.custom("Avenir Book", size: self.horizontalSizeClass == .compact ? 20 : 30))
                         .frame(minWidth: /*@START_MENU_TOKEN@*/0/*@END_MENU_TOKEN@*/, maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/, minHeight: 20, alignment: .leading)
                         .padding(.horizontal, paddingHorizontal)
                     Text("BRASIL")
                         .foregroundColor(Color.white)
-                        .font(.custom("Avenir Black", size: 20))
+                        .font(.custom("Avenir Black", size: self.horizontalSizeClass == .compact ? 23 : 33))
                         .frame(minWidth: /*@START_MENU_TOKEN@*/0/*@END_MENU_TOKEN@*/, maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/, minHeight: 20, alignment: .leading)
                         .padding(.horizontal, paddingHorizontal)
                 }
-                .frame(width: view.size.width, height: 180, alignment: .top)
+                .frame(width: view.size.width, height: 200, alignment: .top)
                 .background(/*@START_MENU_TOKEN@*//*@PLACEHOLDER=View@*/Color.purple/*@END_MENU_TOKEN@*/)
                 
                 
@@ -51,7 +56,7 @@ struct ContentView: View {
                         print("apertaram o botão")
                     }, label: {
                         Text("Hotéis")
-                            .font(.custom("Avenir Medium", size: 17))
+                            .font(.custom("Avenir Medium", size: self.horizontalSizeClass == .compact ? 17 : 24))
                             .foregroundColor(Color.white)
                     })
                     .frame(width: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, height: 50)
@@ -65,7 +70,7 @@ struct ContentView: View {
                         print("apertaram o botão")
                     }, label: {
                         Text("Pacotes")
-                            .font(.custom("Avenir Medium", size: 17))
+                            .font(.custom("Avenir Medium", size: self.horizontalSizeClass == .compact ? 17 : 24))
                             .foregroundColor(Color.white)
                     })
                     .frame(width: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, height: 50)
