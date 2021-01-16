@@ -2,7 +2,7 @@
 //  PizzaRestaurantApp.swift
 //  PizzaRestaurant
 //
-//  Created by Bruno Brito on 10/01/21.
+//  Created by Bruno Brito on 16/01/21.
 //
 
 import SwiftUI
@@ -13,8 +13,8 @@ struct PizzaRestaurantApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
-                .environment(\.managedObjectContext, persistenceController.container.viewContext)
+            ContentView().environment(\.managedObjectContext, PersistenceController.preview.container.viewContext)
+                
         }
     }
 }

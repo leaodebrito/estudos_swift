@@ -7,27 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C1D2791225AB1DAB005D98E9 /* PizzaRestaurantApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D2791125AB1DAB005D98E9 /* PizzaRestaurantApp.swift */; };
-		C1D2791425AB1DAB005D98E9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D2791325AB1DAB005D98E9 /* ContentView.swift */; };
-		C1D2791625AB1DAD005D98E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1D2791525AB1DAD005D98E9 /* Assets.xcassets */; };
-		C1D2791925AB1DAD005D98E9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1D2791825AB1DAD005D98E9 /* Preview Assets.xcassets */; };
-		C1D2791B25AB1DAD005D98E9 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D2791A25AB1DAD005D98E9 /* Persistence.swift */; };
-		C1D2791E25AB1DAD005D98E9 /* PizzaRestaurant.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C1D2791C25AB1DAD005D98E9 /* PizzaRestaurant.xcdatamodeld */; };
+		C1F4430925B3570C0077EEE4 /* PizzaRestaurantApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F4430825B3570C0077EEE4 /* PizzaRestaurantApp.swift */; };
+		C1F4430B25B3570C0077EEE4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F4430A25B3570C0077EEE4 /* ContentView.swift */; };
+		C1F4430D25B3570D0077EEE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1F4430C25B3570D0077EEE4 /* Assets.xcassets */; };
+		C1F4431025B3570D0077EEE4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1F4430F25B3570D0077EEE4 /* Preview Assets.xcassets */; };
+		C1F4431225B3570D0077EEE4 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F4431125B3570D0077EEE4 /* Persistence.swift */; };
+		C1F4431525B3570D0077EEE4 /* PizzaRestaurant.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C1F4431325B3570D0077EEE4 /* PizzaRestaurant.xcdatamodeld */; };
+		C1F4432525B35DF50077EEE4 /* Order+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F4432325B35DF50077EEE4 /* Order+CoreDataClass.swift */; };
+		C1F4432625B35DF50077EEE4 /* Order+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F4432425B35DF50077EEE4 /* Order+CoreDataProperties.swift */; };
+		C1F4432925B3604D0077EEE4 /* OrderSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F4432825B3604D0077EEE4 /* OrderSheet.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		C1D2790E25AB1DAB005D98E9 /* PizzaRestaurant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PizzaRestaurant.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		C1D2791125AB1DAB005D98E9 /* PizzaRestaurantApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaRestaurantApp.swift; sourceTree = "<group>"; };
-		C1D2791325AB1DAB005D98E9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		C1D2791525AB1DAD005D98E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		C1D2791825AB1DAD005D98E9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		C1D2791A25AB1DAD005D98E9 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
-		C1D2791D25AB1DAD005D98E9 /* PizzaRestaurant.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PizzaRestaurant.xcdatamodel; sourceTree = "<group>"; };
-		C1D2791F25AB1DAD005D98E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1F4430525B3570C0077EEE4 /* PizzaRestaurant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PizzaRestaurant.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1F4430825B3570C0077EEE4 /* PizzaRestaurantApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaRestaurantApp.swift; sourceTree = "<group>"; };
+		C1F4430A25B3570C0077EEE4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C1F4430C25B3570D0077EEE4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C1F4430F25B3570D0077EEE4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C1F4431125B3570D0077EEE4 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		C1F4431425B3570D0077EEE4 /* PizzaRestaurant.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PizzaRestaurant.xcdatamodel; sourceTree = "<group>"; };
+		C1F4431625B3570D0077EEE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1F4432325B35DF50077EEE4 /* Order+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Order+CoreDataClass.swift"; sourceTree = "<group>"; };
+		C1F4432425B35DF50077EEE4 /* Order+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Order+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		C1F4432825B3604D0077EEE4 /* OrderSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderSheet.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		C1D2790B25AB1DAB005D98E9 /* Frameworks */ = {
+		C1F4430225B3570C0077EEE4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,40 +43,43 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		C1D2790525AB1DAB005D98E9 = {
+		C1F442FC25B3570C0077EEE4 = {
 			isa = PBXGroup;
 			children = (
-				C1D2791025AB1DAB005D98E9 /* PizzaRestaurant */,
-				C1D2790F25AB1DAB005D98E9 /* Products */,
+				C1F4432325B35DF50077EEE4 /* Order+CoreDataClass.swift */,
+				C1F4432425B35DF50077EEE4 /* Order+CoreDataProperties.swift */,
+				C1F4430725B3570C0077EEE4 /* PizzaRestaurant */,
+				C1F4430625B3570C0077EEE4 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		C1D2790F25AB1DAB005D98E9 /* Products */ = {
+		C1F4430625B3570C0077EEE4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C1D2790E25AB1DAB005D98E9 /* PizzaRestaurant.app */,
+				C1F4430525B3570C0077EEE4 /* PizzaRestaurant.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C1D2791025AB1DAB005D98E9 /* PizzaRestaurant */ = {
+		C1F4430725B3570C0077EEE4 /* PizzaRestaurant */ = {
 			isa = PBXGroup;
 			children = (
-				C1D2791125AB1DAB005D98E9 /* PizzaRestaurantApp.swift */,
-				C1D2791325AB1DAB005D98E9 /* ContentView.swift */,
-				C1D2791525AB1DAD005D98E9 /* Assets.xcassets */,
-				C1D2791A25AB1DAD005D98E9 /* Persistence.swift */,
-				C1D2791F25AB1DAD005D98E9 /* Info.plist */,
-				C1D2791C25AB1DAD005D98E9 /* PizzaRestaurant.xcdatamodeld */,
-				C1D2791725AB1DAD005D98E9 /* Preview Content */,
+				C1F4430825B3570C0077EEE4 /* PizzaRestaurantApp.swift */,
+				C1F4430A25B3570C0077EEE4 /* ContentView.swift */,
+				C1F4432825B3604D0077EEE4 /* OrderSheet.swift */,
+				C1F4430C25B3570D0077EEE4 /* Assets.xcassets */,
+				C1F4431125B3570D0077EEE4 /* Persistence.swift */,
+				C1F4431625B3570D0077EEE4 /* Info.plist */,
+				C1F4431325B3570D0077EEE4 /* PizzaRestaurant.xcdatamodeld */,
+				C1F4430E25B3570D0077EEE4 /* Preview Content */,
 			);
 			path = PizzaRestaurant;
 			sourceTree = "<group>";
 		};
-		C1D2791725AB1DAD005D98E9 /* Preview Content */ = {
+		C1F4430E25B3570D0077EEE4 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				C1D2791825AB1DAD005D98E9 /* Preview Assets.xcassets */,
+				C1F4430F25B3570D0077EEE4 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -78,13 +87,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C1D2790D25AB1DAB005D98E9 /* PizzaRestaurant */ = {
+		C1F4430425B3570C0077EEE4 /* PizzaRestaurant */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C1D2792225AB1DAD005D98E9 /* Build configuration list for PBXNativeTarget "PizzaRestaurant" */;
+			buildConfigurationList = C1F4431925B3570D0077EEE4 /* Build configuration list for PBXNativeTarget "PizzaRestaurant" */;
 			buildPhases = (
-				C1D2790A25AB1DAB005D98E9 /* Sources */,
-				C1D2790B25AB1DAB005D98E9 /* Frameworks */,
-				C1D2790C25AB1DAB005D98E9 /* Resources */,
+				C1F4430125B3570C0077EEE4 /* Sources */,
+				C1F4430225B3570C0077EEE4 /* Frameworks */,
+				C1F4430325B3570C0077EEE4 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -92,24 +101,24 @@
 			);
 			name = PizzaRestaurant;
 			productName = PizzaRestaurant;
-			productReference = C1D2790E25AB1DAB005D98E9 /* PizzaRestaurant.app */;
+			productReference = C1F4430525B3570C0077EEE4 /* PizzaRestaurant.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		C1D2790625AB1DAB005D98E9 /* Project object */ = {
+		C1F442FD25B3570C0077EEE4 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1230;
 				LastUpgradeCheck = 1230;
 				TargetAttributes = {
-					C1D2790D25AB1DAB005D98E9 = {
+					C1F4430425B3570C0077EEE4 = {
 						CreatedOnToolsVersion = 12.3;
 					};
 				};
 			};
-			buildConfigurationList = C1D2790925AB1DAB005D98E9 /* Build configuration list for PBXProject "PizzaRestaurant" */;
+			buildConfigurationList = C1F4430025B3570C0077EEE4 /* Build configuration list for PBXProject "PizzaRestaurant" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -117,44 +126,47 @@
 				en,
 				Base,
 			);
-			mainGroup = C1D2790525AB1DAB005D98E9;
-			productRefGroup = C1D2790F25AB1DAB005D98E9 /* Products */;
+			mainGroup = C1F442FC25B3570C0077EEE4;
+			productRefGroup = C1F4430625B3570C0077EEE4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C1D2790D25AB1DAB005D98E9 /* PizzaRestaurant */,
+				C1F4430425B3570C0077EEE4 /* PizzaRestaurant */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		C1D2790C25AB1DAB005D98E9 /* Resources */ = {
+		C1F4430325B3570C0077EEE4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C1D2791925AB1DAD005D98E9 /* Preview Assets.xcassets in Resources */,
-				C1D2791625AB1DAD005D98E9 /* Assets.xcassets in Resources */,
+				C1F4431025B3570D0077EEE4 /* Preview Assets.xcassets in Resources */,
+				C1F4430D25B3570D0077EEE4 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		C1D2790A25AB1DAB005D98E9 /* Sources */ = {
+		C1F4430125B3570C0077EEE4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C1D2791B25AB1DAD005D98E9 /* Persistence.swift in Sources */,
-				C1D2791425AB1DAB005D98E9 /* ContentView.swift in Sources */,
-				C1D2791225AB1DAB005D98E9 /* PizzaRestaurantApp.swift in Sources */,
-				C1D2791E25AB1DAD005D98E9 /* PizzaRestaurant.xcdatamodeld in Sources */,
+				C1F4432625B35DF50077EEE4 /* Order+CoreDataProperties.swift in Sources */,
+				C1F4431225B3570D0077EEE4 /* Persistence.swift in Sources */,
+				C1F4430B25B3570C0077EEE4 /* ContentView.swift in Sources */,
+				C1F4430925B3570C0077EEE4 /* PizzaRestaurantApp.swift in Sources */,
+				C1F4432525B35DF50077EEE4 /* Order+CoreDataClass.swift in Sources */,
+				C1F4432925B3604D0077EEE4 /* OrderSheet.swift in Sources */,
+				C1F4431525B3570D0077EEE4 /* PizzaRestaurant.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		C1D2792025AB1DAD005D98E9 /* Debug */ = {
+		C1F4431725B3570D0077EEE4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -215,7 +227,7 @@
 			};
 			name = Debug;
 		};
-		C1D2792125AB1DAD005D98E9 /* Release */ = {
+		C1F4431825B3570D0077EEE4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -270,7 +282,7 @@
 			};
 			name = Release;
 		};
-		C1D2792325AB1DAD005D98E9 /* Debug */ = {
+		C1F4431A25B3570D0077EEE4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -292,7 +304,7 @@
 			};
 			name = Debug;
 		};
-		C1D2792425AB1DAD005D98E9 /* Release */ = {
+		C1F4431B25B3570D0077EEE4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -317,20 +329,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C1D2790925AB1DAB005D98E9 /* Build configuration list for PBXProject "PizzaRestaurant" */ = {
+		C1F4430025B3570C0077EEE4 /* Build configuration list for PBXProject "PizzaRestaurant" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C1D2792025AB1DAD005D98E9 /* Debug */,
-				C1D2792125AB1DAD005D98E9 /* Release */,
+				C1F4431725B3570D0077EEE4 /* Debug */,
+				C1F4431825B3570D0077EEE4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C1D2792225AB1DAD005D98E9 /* Build configuration list for PBXNativeTarget "PizzaRestaurant" */ = {
+		C1F4431925B3570D0077EEE4 /* Build configuration list for PBXNativeTarget "PizzaRestaurant" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C1D2792325AB1DAD005D98E9 /* Debug */,
-				C1D2792425AB1DAD005D98E9 /* Release */,
+				C1F4431A25B3570D0077EEE4 /* Debug */,
+				C1F4431B25B3570D0077EEE4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -338,17 +350,17 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		C1D2791C25AB1DAD005D98E9 /* PizzaRestaurant.xcdatamodeld */ = {
+		C1F4431325B3570D0077EEE4 /* PizzaRestaurant.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				C1D2791D25AB1DAD005D98E9 /* PizzaRestaurant.xcdatamodel */,
+				C1F4431425B3570D0077EEE4 /* PizzaRestaurant.xcdatamodel */,
 			);
-			currentVersion = C1D2791D25AB1DAD005D98E9 /* PizzaRestaurant.xcdatamodel */;
+			currentVersion = C1F4431425B3570D0077EEE4 /* PizzaRestaurant.xcdatamodel */;
 			path = PizzaRestaurant.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
 /* End XCVersionGroup section */
 	};
-	rootObject = C1D2790625AB1DAB005D98E9 /* Project object */;
+	rootObject = C1F442FD25B3570C0077EEE4 /* Project object */;
 }
