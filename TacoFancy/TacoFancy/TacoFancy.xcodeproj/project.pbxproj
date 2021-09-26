@@ -11,6 +11,7 @@
 		C125940F2700E8CA00EC03A4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C125940E2700E8CA00EC03A4 /* ContentView.swift */; };
 		C12594112700E8CC00EC03A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C12594102700E8CC00EC03A4 /* Assets.xcassets */; };
 		C12594142700E8CC00EC03A4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C12594132700E8CC00EC03A4 /* Preview Assets.xcassets */; };
+		C125941B2700EA3C00EC03A4 /* TacoData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C125941A2700EA3C00EC03A4 /* TacoData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,8 @@
 		C125940E2700E8CA00EC03A4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C12594102700E8CC00EC03A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C12594132700E8CC00EC03A4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C125941A2700EA3C00EC03A4 /* TacoData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TacoData.swift; sourceTree = "<group>"; };
+		C125941C2700F0BC00EC03A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +54,10 @@
 		C125940B2700E8CA00EC03A4 /* TacoFancy */ = {
 			isa = PBXGroup;
 			children = (
+				C125941C2700F0BC00EC03A4 /* Info.plist */,
 				C125940C2700E8CA00EC03A4 /* TacoFancyApp.swift */,
 				C125940E2700E8CA00EC03A4 /* ContentView.swift */,
+				C125941A2700EA3C00EC03A4 /* TacoData.swift */,
 				C12594102700E8CC00EC03A4 /* Assets.xcassets */,
 				C12594122700E8CC00EC03A4 /* Preview Content */,
 			);
@@ -137,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C125941B2700EA3C00EC03A4 /* TacoData.swift in Sources */,
 				C125940F2700E8CA00EC03A4 /* ContentView.swift in Sources */,
 				C125940D2700E8CA00EC03A4 /* TacoFancyApp.swift in Sources */,
 			);
@@ -271,6 +277,9 @@
 				DEVELOPMENT_ASSET_PATHS = "\"TacoFancy/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TacoFancy/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -300,6 +309,9 @@
 				DEVELOPMENT_ASSET_PATHS = "\"TacoFancy/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TacoFancy/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
